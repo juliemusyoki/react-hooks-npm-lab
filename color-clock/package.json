@@ -1,0 +1,28 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "description": "Introduction to package management using npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello World!'",
+    "start": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juliemusyoki/react-hooks-npm-lab.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Flatiron School",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliemusyoki/react-hooks-npm-lab/issues"
+  },
+  "homepage": "https://github.com/juliemusyoki/react-hooks-npm-lab#readme",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "esbuild": "^0.19.5"
+  }
+}
